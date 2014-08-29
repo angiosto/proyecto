@@ -1,0 +1,16 @@
+var i;
+var mensaje=new Array();
+
+mensaje.push("<h2>1) CONFIGURACION DEL SISTEMA<br></h2><h1>tambien puedes aumentar la velocidad de tu disco duro cambiando la -funcion- de tu computadora de computadora de escritorio a servidor de red. Para cambiar esta configuracion, vaya a INICIO / CONFIGURACION / PANEL DE CONTROL, seleccione PROPIEDADES DEL SISTEMA y luego seleccione el boton de RENDIMIENTO. En la seccion de configuracion avanzada en la parte inferior de la ventana, haz clic en el boton SISTEMA DE ARCHIVOS. En la ventana de configuracion, -FUNCION TIPICA DE ESTA COMPUTADORA- cambia la funcion seleccionada de computadora de escritorio a servidor de red. <br>Si tu sistema todavia esta lento, puedes modificar los archivos del sistema para mejorar el rendimiento. Seleccione INICIO / EJECUTAR y digita -sysedit-. Se abrira los archivos principales del sistema de arranque que puedes modificar. Generalmente las variaciones en los archivos -AUTOEXEC.BAT- y -CONFIG.SYS- probablemente mejoren el rendimiento del sistema. podrias solicitar ayuda a un tecnico para hacer las modificaciones. Recuerda hacer copias de seguridad antes de realizar los cambios. </h1>");
+mensaje.push("<h2>2) WINDOWS UP DATES<br></h2><h1>Es buena idea utilizar con frecuencia Windows Up date para mantener el sistema operativo actualizado con las ultimas modificaciones y mejoras. </h1>");
+mensaje.push("<h2>3) EL SISTEMA SE -CUELGA-  <br></h2><h1>Diferentes problemas pueden detener el sistema, como los problemas de memoria y de fluido electrico, sin embargo siempre se culpa a los controladores. Los controladores para el hardware rara vez se actualizan y con frecuencia tienen errores de programacion. Para solucionar este problema, haz una copia de seguridad de tu disco duro y crea un disco de arranque de emergencia en un disquete, luego ve a INICIO / CONFIGURACION / PANEL DE CONTROL y selecciona AGREGAR / QUITAR PROGRAMAS. Desde el panel DISCO DE ARRANQUE, haz clik en CREAR DISCO. Luego, consulta el sitio Web de un distribuidor para descargar un nuevo controlador. </h1>");
+mensaje.push("<h2>4) WINDOWS NO PUEDE ENCONTRAR EL NUEVO HADWARE  <br></h2><h1>Primero consulta el manual para verificar que el dispositivo este correctamente instalado. Si esta bien instalado, haz clic en MI PC / PROPIEDADES / ADMINSITRADOR DE DISPOSITIVOS. Encuentra el dispositivo que tiene el problema. Si se levanta la bandera, utilice PROPIEDADES para ver cual es el problema. Si no se soluciona, haz clic en QUITAR y reinicie el equipo. Ahora Windows debe volver a reconocer el hardware que acabas de quitar y debe instalar los controladores adecuados, para lo cual necesita tener primero una copia del nuevo controlador del sistema. Si no funciona, utiliza el asistente AGREGAR NUEVO HARDWARE para seleccionar el dispositivo y controladores manualmente. </h1>");
+mensaje.push("<h2>5) LA UNIDAD DE CD-ROM NO LEE SUS CDS  <br></h2><h1>Asegurate que el cable no se halla soltado de la tarjeta madre. Si no es este el problema, podria ser que tu lo deshabilitaste el Administrador de desinstalacion de los dispositivos para el CD-ROM. Ve al PANEL DE CONTROL / ADMINISTRADOR DEL SISTEMA / CD-ROM y desactiva el administrador de los dispositivos. Si no es este el problema, limpia los lentes y revisa el controlador. </h1>");
+
+for(i=0 ;i<=4;i++)
+{
+
+document.write(mensaje[i])
+
+
+}
